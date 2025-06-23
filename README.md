@@ -2,6 +2,7 @@
 MIT Scratch app
 
 Deployment Link: https://mit-scratch-clone.netlify.app/
+
 Demo Video:
 
 Steps to use this:
