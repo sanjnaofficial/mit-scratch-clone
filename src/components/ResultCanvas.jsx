@@ -99,7 +99,7 @@ function ResultCanvas() {
     const newSprite = {
       id: `draggable-${sprites.length + 1}`,
       src: selectedImage,
-      position: { x: 0, y: 0 },
+      position: { x: sprites.length*100, y: 0 },
       angle: 0,
     };
 

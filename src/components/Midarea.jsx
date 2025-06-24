@@ -267,18 +267,7 @@ export default function Midarea({ spriteId }) {
             pressed.reset ? "scale-90" : ""
           }`}
         >
-          ⟳
-        </button>
-        <button
-          onClick={() => {
-            flashBtn("run");
-            handleRun();
-          }}
-          className={`px-6 py-3 rounded-lg bg-blue-500 text-white font-semibold shadow-lg hover:bg-blue-600 transition-all ${
-            pressed.run ? "scale-90" : ""
-          }`}
-        >
-          ▶ play
+          ⟳ Reset Current Sprite
         </button>
       </div>
     </div>

@@ -10,7 +10,7 @@ import { SpriteContext } from "./context/SpriteProvider";
 
 function App() {
   const { currSprite } = useContext(SpriteContext);
-  const [showPalette, setShowPalette] = useState(false);
+  const [showPalette, setShowPalette] = useState(true);
   return (
     <DndProvider backend={HTML5Backend}>
       <main className="min-h-screen flex items-center justify-center bg-blue-100 p-6 relative">
